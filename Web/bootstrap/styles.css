@@ -1,0 +1,21 @@
+body {
+  padding-top: 50px;
+}
+.section {
+  padding: 40px 15px;
+  padding-bottom: 10%;
+  text-align: center;
+}
+
+#about {
+    background-color: black;
+    color:#EEE9E9;
+}
+
+#imageLine {
+    position:relative;
+}
+
+.info {
+    padding: 30%;
+}
