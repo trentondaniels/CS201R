@@ -5,6 +5,7 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  background-color: #ffe4c4;
 }
 
 
@@ -31,6 +32,8 @@ body {
 }
 .navbar-wrapper .navbar .container {
   width: auto;
+   background-color: #65000b;
+   border-color: #541414;
 }
 
 
@@ -75,6 +78,11 @@ body {
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
+}
+.btn {
+    background-color: #873260;
+    border-color: #873260;
+    color: white;
 }
 
 
