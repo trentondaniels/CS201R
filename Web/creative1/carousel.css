@@ -116,6 +116,10 @@ hr.featurette-divider:before {
   letter-spacing: -1px;
 }
 
+.first-content {
+    margin-top: 75px;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
