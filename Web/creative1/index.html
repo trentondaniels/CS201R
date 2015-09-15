@@ -25,7 +25,7 @@
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
                                 <li class="active"><a href="#">Home</a></li>
-                                <li><a href ="menu.html">Menu</a></li>
+                                <li><a href ="#myModal" data-toggle="modal" data-target="#myModal">Menu</a></li>
                                 <li><a href="about.html">About</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
@@ -48,7 +48,7 @@
                     <img class="first-slide" src="rsz_1elainesign.jpg" alt="First slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">About Us</a></p>
+                            <p><a class="btn btn-lg btn-primary" href="about.html" role="button">About Us</a></p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                         <div class="carousel-caption">
                             <h1>Fresh Bread,</h1>
                             <p>delectable pastries, and indulgent drinks</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                            <p><a class="btn btn-lg btn-primary" href="about.html" role="button">Learn more</a></p>
                         </div>
                     </div>
                 </div>
@@ -105,6 +105,50 @@
                     <p><a class="btn btn-default" href="#drinks" role="button">View details</a></p>
                 </div>
              </div>
+			 <div class = "span12 text-center">
+				<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Full Menu</button>
+
+				  <!-- Modal -->
+				  <div class="modal fade" id="myModal" role="dialog">
+					<div class="modal-dialog">
+					
+					  <!-- Modal content-->
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <button type="button" class="close" data-dismiss="modal">&times;</button>
+						  <h4 class="modal-title">Menu</h4>
+						</div>
+						<div class="modal-body">
+						  <h4>Les Pains / Bread</h4>
+						  <p>Sourdough  4.50</p>
+						  <p>Sandwich Bread / Pain De Mie  4.00</p>
+						  <p>Batard (various)  4.50</p>
+						  <p>Challah (Friday Only)  7.40</p>
+						  
+						  <br>
+						  
+						  <h4>Les P&#226;tisseries / Pastries</h4>
+						  <p>Croissant  3.00</p>
+						  <p>Chocolatine  3.30</p>
+						  <p>Macarons (Various)  2.50</p>
+						  <p>Fruit Tarts (Various)  4.20</p>
+						  
+						  <br>
+						  
+						  <h4>Les Boissons / Drinks</h4>
+						  <p>Hot Chocolate  3.60</p>
+						  <p>Herbal Teas  3.40</p>
+						  <p>Iced Milk & Grenadine Syrup  3.80</p>
+						  <p>Iced Tea & Lemonade  4.20</p>
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					  </div>
+					  
+					</div>
+				  </div>
+			 </div>
              
             <!-- main content of page -->
             <hr class="featurette-divider">
